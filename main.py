@@ -5,11 +5,13 @@ name = input('Enter username :')
 if(name == ''):
 	print("Username not valid ! Try Again")
 	sys.exit(0)
+	
 wlcm ='''
 █▀ █▀█ █▀▀ █ ▄▀█ █     █▀ █▀▀ ▄▀█ █▀█ █▀▀ █░█
 ▄█ █▄█ █▄▄ █ █▀█ █▄▄   ▄█ ██▄ █▀█ █▀▄ █▄▄ █▀█
 '''
 print(wlcm)
+
 #--------------------------------------------------
 github = requests.get(f'https://github.com/{name}')
 st_code = github.status_code
