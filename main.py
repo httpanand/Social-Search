@@ -1,5 +1,6 @@
 import requests
 import sys
+
 name = input('Enter username :')
 if(name == ''):
 	print("Username not valid ! Try Again")
