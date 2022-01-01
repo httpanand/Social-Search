@@ -132,4 +132,3 @@ if(st_code == 200):
 	print('LastFm    ✔')
 else:
 	print('LastFm    ✖')
-
