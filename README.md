@@ -19,4 +19,4 @@
 | Gravatar      |
 | LastFm        |
 
-<h5><b>NB : Some does not return 404 for invalid usernames .. ! </b></h5>
+
